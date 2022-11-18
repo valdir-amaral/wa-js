@@ -44,7 +44,7 @@ export declare function promoteParticipants(
   participants: ParticipantModel[]
 ): Promise<void>;
 
-/** @whatsapp 815562
+/** @whatsapp 688460
  */
 export declare function promoteCommunityParticipants(
   group: ChatModel,
@@ -60,6 +60,8 @@ export declare function demoteParticipants(
   participants: ParticipantModel[]
 ): Promise<void>;
 
+/** @whatsapp 688460
+ */
 export declare function demoteCommunityParticipants(
   group: ChatModel,
   participants: ParticipantModel[]
